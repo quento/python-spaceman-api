@@ -1,6 +1,6 @@
 # Spaceman Game API
 
-This API is useful for storing and upating the state of a Spaceman Game. The service starts a Spaceman Game by choosing a word at random, or one given by a request, then allowing requests to guess letters in that word. A game ends when either all the letters in the word have been guessed, or a total number of guesses are exhausted without guessing all the letters in the word (e.g., there are 5 guesses allowed, 5 guesses have been made that were not letters in the word, therefore there are no guesses left).
+This API is useful for storing and updating the state of a Spaceman Game. The service starts a Spaceman Game by choosing a word at random, or one given by a request, then allowing requests to guess letters in that word. A game ends when either all the letters in the word have been guessed, or a total number of guesses are exhausted without guessing all the letters in the word (e.g., there are 5 guesses allowed, 5 guesses have been made that were not letters in the word, therefore there are no guesses left).
 
 For each guess the service updates the state of the game:
 - what letters have been guessed
